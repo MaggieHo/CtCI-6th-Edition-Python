@@ -14,6 +14,7 @@ def check_permutation(str1, str2):
             return False
         counter[c] -= 1
     return True
+    #Should we return counter.values==0??
 
 
 class Test(unittest.TestCase):
